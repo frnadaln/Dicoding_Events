@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Dicoding Events</string>
+    <string name="title_home">Home</string>
+    <string name="bottom_title_active_event">Active</string>
+    <string name="bottom_title_completed_event">Completed</string>
+    <string name="bottom_title_favorite_event">Favorite</string>
+    <string name="bottom_title_setting">Setting</string>
+    <string name="title_active_event">Active Event</string>
+    <string name="title_completed_event">Completed Event</string>
+    <string name="page_title_favorite">Favorite Events</string>
+    <string name="page_title_home">Dicoding Events</string>
+    <string name="search_keyword">Masukkan Keyword</string>
+    <string name="error_message">No Internet Connection</string>
+    <string name="empty_data">Tidak Ada Event Favorite</string>
+    <string name="image_event">Image</string>
+    <string name="owner_name">Owner</string>
+    <string name="begin_time">Begin Time</string>
+    <string name="start_event">Start</string>
+    <string name="end_event">End</string>
+    <string name="quota">Quota</string>
+    <string name="visit">Visit Event</string>
+    <string name="remaining_quota">Remaining Quota</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.dicoding.dicodingevents.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_active_event"
+        android:name="com.dicoding.dicodingevents.ui.active.ActiveEvent"
+        android:label="@string/title_active_event"
+        tools:layout="@layout/fragment_active" />
+
+    <fragment
+        android:id="@+id/navigation_completed_event"
+        android:name="com.dicoding.dicodingevents.ui.completed.CompletedEvent"
+        android:label="@string/title_completed_event"
+        tools:layout="@layout/fragment_completed" />
+
+    <fragment
+        android:id="@+id/navigation_favorite_event"
+        android:name="com.dicoding.dicodingevents.ui.favorite.EventFavorite"
+        android:label="@string/bottom_title_favorite_event"
+        tools:layout="@layout/fragment_favorite"/>
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.dicoding.dicodingevents.ui.setting.SettingFragment"
+        android:label="@string/bottom_title_setting"
+        tools:layout="@layout/fragment_setting"/>
+</navigation>
